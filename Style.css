@@ -1,7 +1,7 @@
 /* fond de page */
 body {
-  background-color: darksalmon;
-  color: white;
+  background-color: peru;
+  color: snow;
   height: 100vh;
   margin: 0;
   /* pour éviter l'ascenseur */
@@ -11,14 +11,14 @@ body {
 
 /* bandeau de titre */
 h1 { 
-  color: white;
+  color: palegoldenrod;
   border: none;
-  box-shadow: none;
-  background-color: rgba(255,255,255,0.3);
-  border-top: 3px solid rgba(255,255,255,0.6);
-  border-bottom: 3px solid rgba(255,255,255,0.6);
+  box-shadow: 3px 3px 3px black;
+  background-color: rgba(222, 184, 135,0.3);
+  border-top: 3px solid rgba(222, 184, 135,0.6);
+  border-bottom: 3px solid rgba(222, 184, 135),0.6);
   margin-top: 0.8em;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 3px tan;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin-bottom: 0.8em;
@@ -28,7 +28,7 @@ h1 {
 body > * {   padding-left: 10px; }
 
 /* polices de caractères */
-body { font-family: Trebuchet MS, sans-serif; }
+body { font-family: Marker Felt, fantasy; }
 
 /* positionnement des champs */
 label { display: block; }
@@ -39,7 +39,7 @@ a.delete:hover {
 }
 
 #map {
-  height: 500px; width: 700px;
+  height: 700px; width: 700px;
   float: left;
   padding-right: 20px;
   margin-right: 20px;
@@ -48,13 +48,13 @@ a.delete:hover {
 #description {
   border-width: 2px;
   border-style: none none none solid;
-  border-color: white;
+  border-color: saddlebrown;
   padding-left: 20px;
   float left;
 }
 
 a {
-  color: darkgreen;
+  color: paleturquoise;
   text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ i {
   float: left;
   border-width: 2px;
   border-style: none none none solid;
-  border-color: white;
+  border-color: orange;
   padding-left: 10px;
   padding-right: 30px;
   background-color: lightsalmon;
@@ -75,11 +75,11 @@ table{
 }
 
 tr:nth-child(even) {
-  background-color: salmon;
+  background-color: sandybrown;
 }
 
 tr:nth-child(odd) {
-  background-color: lightsalmon;
+  background-color: tan;
 }
 
 td:nth-child(2) {
